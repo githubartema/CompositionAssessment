@@ -15,7 +15,7 @@ REQUIRED = [
     'einops==0.3.0',
     'numpy',
 #    'opencv_contrib_python==4.4.0.46',
-    'Pillow==8.4.0',
+#    'Pillow==8.4.0',
 #    'scipy==1.5.2',
     'tensorboardX==2.4',
     'torch==1.11.0',
