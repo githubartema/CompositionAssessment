@@ -1,5 +1,6 @@
-from samp_net import EMDLoss, SAMPNet
-from cadb_dataset import CADBDataset
+from .model.samp_net import EMDLoss, SAMPNet
+from .cadb_dataset import CADBDataset
+
 import torch
 from torch.utils.data import DataLoader
 import scipy.stats as stats

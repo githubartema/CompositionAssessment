@@ -8,10 +8,10 @@ import shutil
 from torch.utils.data import DataLoader
 import csv
 
-from samp_net import EMDLoss, AttributeLoss, SAMPNet
-from config import Config
-from cadb_dataset import CADBDataset
-from test import evaluation_on_cadb
+from .model.samp_net import EMDLoss, AttributeLoss, SAMPNet
+from .config import Config
+from .cadb_dataset import CADBDataset
+from .test import evaluation_on_cadb
 
 def calculate_accuracy(predict, target, threhold=2.6):
     assert target.shape == predict.shape, '{} vs. {}'.format(target.shape, predict.shape)

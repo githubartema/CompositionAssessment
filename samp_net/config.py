@@ -2,8 +2,8 @@ import os,time
 
 class Config:
     # setting for dataset and dataloader
-    dataset_path = './CADB_Dataset'
-    assert os.path.exists(dataset_path), dataset_path + 'not found'
+    dataset_path = '../CADB_Dataset'
+    #assert os.path.exists(dataset_path), dataset_path + 'not found'
 
     batch_size = 16
     gpu_id = 0

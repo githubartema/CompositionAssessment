@@ -1,0 +1,6 @@
+__title__ = "samp_net"
+__description__ = ""
+__url__ = ""
+__version__ = "0.0.1"
+__author__ = ""
+__author_email__ = ""

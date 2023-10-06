@@ -5,8 +5,9 @@ import torchvision.models as models
 import warnings
 
 warnings.filterwarnings('ignore')
-from samp_module import MPPModule, SAMPPModule
-from config import Config
+
+from .samp_module import MPPModule, SAMPPModule
+from ..config import Config
 
 class SAPModule(nn.Module):
     def __init__(self, input_channel, output_channel, saliency_size, dropout):
