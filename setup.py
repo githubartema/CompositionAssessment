@@ -18,8 +18,8 @@ REQUIRED = [
     'Pillow==8.4.0',
     'scipy==1.5.2',
     'tensorboardX==2.4',
-    'torch==1.10.1',
-    'torchvision==0.11.2',
+    'torch==1.11.0',
+    'torchvision==0.12.0',
     'tqdm==4.51.0'
 ]
 
