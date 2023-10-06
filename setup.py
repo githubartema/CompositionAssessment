@@ -13,7 +13,7 @@ VERSION = ""
 # What packages are required for this module to be executed?
 REQUIRED = [  
     'einops==0.3.0',
-    'numpy==1.19.1',
+    'numpy',
 #    'opencv_contrib_python==4.4.0.46',
     'Pillow==8.4.0',
 #    'scipy==1.5.2',
