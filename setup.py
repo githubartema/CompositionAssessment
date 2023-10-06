@@ -14,9 +14,9 @@ VERSION = ""
 REQUIRED = [  
     'einops==0.3.0',
     'numpy==1.19.1',
-    'opencv_contrib_python==4.4.0.46',
+#    'opencv_contrib_python==4.4.0.46',
     'Pillow==8.4.0',
-    'scipy==1.5.2',
+#    'scipy==1.5.2',
     'tensorboardX==2.4',
     'torch==1.11.0',
     'torchvision==0.12.0',
